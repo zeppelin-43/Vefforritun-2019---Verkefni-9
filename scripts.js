@@ -90,7 +90,9 @@ const program = (() => {
     const img = newElement('img');
     img.setAttribute('src', 'loading.gif');
 
+    const text = document.createTextNode('Leita að fyrirtækjum...');
     div.appendChild(img);
+    div.appendChild(text);
     results.appendChild(div);
   }
 
